@@ -2,14 +2,13 @@ class Solution {
     func isValid(_ s: String) -> Bool {
         let dict = ["(": ")", "[": "]", "{": "}"]
         var temp = [String]()
-        let arr = s.map { String($0) }
-        
-        for s in 0..<arr.count {
+
+        for str in s {
             if let last = temp.last {
-                if dict[last] == arr[s] { temp.removeLast() }
-                else { temp.append(arr[s]) }
+                if dict[last] == String(str) { temp.removeLast() }
+                else { temp.append(String(str)) }
             } else {
-                temp.append(arr[s])
+                temp.append(String(str))
             }
         }
         
