@@ -4,7 +4,7 @@ class Solution {
         var shouldAdd = true
         var index = digits.count
   
-        for (i, n) in arr.reversed().enumerated() {
+        for n in arr.reversed() {
             index -= 1
             if shouldAdd {
                 if n + 1 <= 9 { shouldAdd = false }
