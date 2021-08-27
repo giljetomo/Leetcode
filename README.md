@@ -32,4 +32,6 @@
 </br>#263 - Ugly Number
 </br>#125 - Valid Palindrome
 </br>#20 - Valid Parentheses
-</br>#367 - Valid Perfect Square</br>
+</br>#367 - Valid Perfect Square
+</br>#136 - Single Number
+</br>#228 - Summary Ranges
